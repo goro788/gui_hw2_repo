@@ -1,0 +1,119 @@
+
+/* Page background */
+body {
+    margin: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #00569f url("ptrbackground.jpg") repeat-x top;
+    color: #333;
+}
+
+/* Wrapper for centered layout */
+#wrapper {
+    width: 80%;
+    min-width: 100px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+/* Header */
+header h1 {
+    margin: 0;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    font-size: 2em;
+    font-family: Georgia, "Times New Roman", serif;
+    background-image: url("sunset.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navigation */
+nav {
+    float: left;
+    width: 180px;
+    height: 480px;
+    background-color: #90c8e3;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+
+nav ul li {
+    margin: 2px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #031750;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #fbfbfb;
+}
+
+/* Content area */
+#content {
+    margin-left: 200px; /* leave space for nav */
+    padding: 20px;
+    box-sizing: border-box;
+
+    
+}
+
+/* Headings */
+h2 {
+    color: #0a78e6;
+    font-family: Georgia, "Times New Roman", serif;
+
+}
+
+/* Resort span styling */
+.resort {
+    color: #00569f;
+    font-weight: bold;
+}
+
+/* Custom bullets */
+#content ul {
+    list-style-image: url("marker.gif");
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    list-style-position: inside;
+    
+}
+/* Ensure text wraps around floated images */
+#content img {
+    float: left;
+    margin: 0 20px 20px 0; /* spacing to the right and bottom */
+
+}
+
+
+
+/* Contact info */
+#contact {
+    margin-top: 20px;
+    font-size: 0.9em;
+    line-height: 1.5;
+    
+}
+
+/* Footer */
+footer {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-left: 200px; /* leave space for nav */
+	padding: 24px 32px 24px 32px;
+}
